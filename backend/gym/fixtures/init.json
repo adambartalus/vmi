@@ -1,0 +1,41 @@
+[
+  {
+    "model": "gym.GymPassType",
+    "pk": 1,
+    "fields": {
+      "name": "Napijegy",
+      "price": 2000,
+      "valid_for": "86400"
+    }
+  },
+  {
+    "model": "gym.GymPassType",
+    "pk": 2,
+    "fields": {
+      "name": "Hetijegy",
+      "price": 6999,
+      "valid_for": "604800",
+      "visit_limit": 7
+    }
+  },
+  {
+    "model": "gym.GymPassType",
+    "pk": 3,
+    "fields": {
+      "name": "30 napos diákbérlet",
+      "price": 11999,
+      "valid_for": "2592000",
+      "visit_limit": 30
+    }
+  },
+  {
+    "model": "gym.GymPassType",
+    "pk": 4,
+    "fields": {
+      "name": "30 napos normál bérlet",
+      "price": 13999,
+      "valid_for": "2592000",
+      "visit_limit": 60
+    }
+  }
+]
